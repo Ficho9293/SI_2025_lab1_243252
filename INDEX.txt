@@ -1,1 +1,32 @@
 243252 
+
+
+
+git add README.md  # Stage the README file for commit
+git config --global user.name "Filip Nichevski"  # Set global username for commits
+git config --global user.email "filip.nicevskipro@gmail.com"  # Set global email for commits
+git push origin main  # Push changes to the main branch on the remote repository
+git fetch origin  # Fetch updates from the remote repository
+git checkout -b 1-remove-task-by-name origin/1-remove-task-by-name  # Create and switch to a new branch from remote
+git branch -r  # List remote branches
+git checkout -b 1-remove-task-by-name origin/1-remove-task-by-name  # Same as previous, create and switch to new branch
+git add SI2025Lab1Main.java  # Stage changes to a specific file for commit
+git push origin 1-remove-task-by-name  # Push changes to the specific branch on remote
+git status  # Check the status of files in the repository (staged, modified, etc.)
+git checkout main  # Switch back to the main branch
+git pull origin main  # Pull latest changes from the main branch on remote
+git checkout -b 2-mark-task-as-completed-by-name  # Create and switch to a new branch for a specific task
+git push origin 2-mark-task-as-completed-by-name  # Push changes for a specific task to remote branch
+git checkout -b 7-count-tasks-per-category  # Create and switch to branch for counting tasks per category
+git add SI2025Lab1Main.java  # Stage changes to a file for commit
+git push origin 7-count-tasks-per-category  # Push changes to a specific branch on remote
+git log --oneline --graph --all  # Show the commit history in a graph format
+git checkout main  # Switch back to the main branch
+git merge 7-count-tasks-per-category  # Merge the changes from branch 7-count-tasks-per-category to main
+git push origin main  # Push the merged changes to the main branch
+git checkout 7-count-tasks-per-category  # Switch to the branch that needs to be merged
+git merge main  # Merge main branch into your current branch to resolve conflicts or updates
+git push origin 7-count-tasks-per-category  # Push the merged changes to the specific branch on remote
+git checkout main  # Switch back to the main branch
+git merge 7-count-tasks-per-category  # Merge changes from branch back into main
+git checkout main  # Ensure you're on the main branch again

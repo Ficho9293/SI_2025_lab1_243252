@@ -8,3 +8,11 @@
 |/  
 * 87d14cb Ajouter un code de démarrage
 * e24fcce Initial commit
+
+git commit -m "Initial commit"
+git commit -m "Ajouter un code start"
+git commit -m "Added remove task method"
+git commit -m "Mark task as completed by name"
+git commit -m "Added countTasksPerCategory method"
+git commit -m "Final commit"
+git commit -m "Added logs.txt and INDEX.txt"
