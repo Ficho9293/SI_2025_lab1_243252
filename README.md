@@ -1,1 +1,1 @@
-"# SI2025 Lab 1\n\nFilip Nichevski \n  index number  :243252" 
+"# SI2025 Lab 1 Filip Nichevski \ index number :243252" 
