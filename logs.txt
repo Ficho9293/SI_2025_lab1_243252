@@ -1,0 +1,10 @@
+*   bc02609 Merge pull request #11 from Ficho9293/2-mark-task-as-completed-by-name
+|\  
+| * ef2332c Mark task as completed by name
+|/  
+*   db3e12e Merge pull request #10 from Ficho9293/1-remove-a-task-by-name
+|\  
+| * ac16bde Added remove task method
+|/  
+* 87d14cb Ajouter un code de démarrage
+* e24fcce Initial commit
