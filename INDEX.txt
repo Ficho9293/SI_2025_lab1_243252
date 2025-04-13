@@ -30,3 +30,7 @@ git push origin 7-count-tasks-per-category  # Push the merged changes to the spe
 git checkout main  # Switch back to the main branch
 git merge 7-count-tasks-per-category  # Merge changes from branch back into main
 git checkout main  # Ensure you're on the main branch again
+
+
+
+For the steps from 2022, I had no issues for the two first pull requests but i made the last one directly from the branch and so instead of being source -> branch it was the opposite so I switched the process because I couldn't find the solution to correct it
