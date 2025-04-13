@@ -112,6 +112,39 @@ class TaskManager {
     }
 }
 
+class TaskManager {
+    private List<Task> tasks;
+
+    public TaskManager() {
+        this.tasks = new ArrayList<>();
+    }
+
+    public void addTask(String name, Priority priority, String category) {
+        tasks.add(new Task(name, priority, category));
+    }
+
+    public void printTasks() {
+        for (Task task : tasks) {
+            System.out.println(task);
+        }
+    }
+
+    // Method to remove a task by its name
+    public void removeTask(String name) {
+        for (Iterator<Task> iterator = tasks.iterator(); iterator.hasNext();) {
+            Task task = iterator.next();
+            if (task.getName().equals(name)) {
+                iterator.remove();
+                System.out.println("Task \"" + name + "\" removed.");
+                return;
+            }
+        }
+        System.out.println("No task found with the name: \"" + name + "\".");
+    }
+}
+
+
+
 public class SI2025Lab1Main {
     public static void main(String[] args) {
         TaskManager manager = new TaskManager();
